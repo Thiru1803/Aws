@@ -1,0 +1,63 @@
+REPORT
+ Deploying a Web Server Using EC2 Instances
+
+Introduction
+
+The purpose of this report is to document the process of deploying a web server using Amazon EC2 (Elastic Compute Cloud) instances. This deployment involves setting up a scalable and reliable web hosting environment for hosting a website/application.
+
+Objectives
+
+To deploy a web server using Amazon EC2 instances.
+To configure the instances for optimal performance and scalability.
+To ensure high availability and reliability of the web server
+
+Methodology
+
+Step 1: Planning
+Determined the requirements for the web server, including expected traffic, storage needs, and security considerations.
+Chose the appropriate EC2 instance type based on the workload requirements and budget constraints.
+Step 2: Instance Creation
+Logged into the AWS Management Console and navigated to the EC2 dashboard.
+Created EC2 instances with the selected specifications, including:
+Instance type: [chosen type]
+Operating system: [OS]
+Security groups: Configured inbound/outbound rules for HTTP/HTTPS traffic.
+Key pairs: Generated and downloaded key pairs for SSH access.
+Step 3: Configuration
+Connected to the instances using SSH.
+Installed necessary software and dependencies (e.g., web server software like Apache or Nginx, database if required, etc.).
+Configured the web server settings, including ports, virtual hosts, and SSL certificates.
+Set up monitoring tools (e.g., CloudWatch) for performance monitoring and alerts.
+Step 4: Security and Scalability
+Implemented security best practices, including:
+Enabling firewall rules (using security groups) to restrict unnecessary access.
+Configuring SSL/TLS certificates for secure HTTPS communication.
+Regularly updating the operating system and installed software for security patches.
+Implemented auto-scaling configurations for handling increased traffic demands.
+Results
+Successfully deployed [number] EC2 instances to host the web server.
+Configured the web server to handle [specify] concurrent users/requests.
+Implemented security measures to safeguard against common threats.
+Set up monitoring to track server performance and health metrics.
+Challenges Faced
+Identified challenges during the deployment process, such as initial setup complexities, security configurations, etc.
+Overcame challenges by referring to AWS documentation, online resources, and utilizing AWS support if required.
+
+Conclusion
+
+The deployment of a web server using Amazon EC2 instances proved successful, meeting the objectives of creating a scalable, reliable, and secure hosting environment. The configured setup is ready to handle the expected web traffic and maintain high availability.
+
+Recommendations
+
+Regularly monitor and optimize the server performance for better efficiency.
+Implement automated backups and disaster recovery strategies to prevent data loss.
+Periodically review security configurations and apply updates to mitigate emerging threats.
+
+References
+
+AWS Documentation
+Online Tutorials/Guides- Training
+AWS Support
+This structure can be customized further based on specific details, additional configurations, or challenges faced during your deployment process.
+
+
